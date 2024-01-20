@@ -25,7 +25,7 @@ const Login = () => {
         </h1>
       )}
 
-      <Form method="post" className="flex flex-col h-[400px] w-[400px]">
+      <Form method="post" className="flex flex-col h-[400px] w-[350px]">
         <h1 className="text-3xl font-bold mb-10 ">Sign in to your account</h1>
         <input
           name="email"

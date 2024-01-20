@@ -38,7 +38,7 @@ export const Vaninfo = () => {
         </h1>
       </Link>
       <div className="flex justify-center mt-10">
-        <div className="flex flex-col w-[400px] gap-2">
+        <div className="flex flex-col w-[350px] gap-2">
           <img className="mb-3 rounded-md " src={displayedVan.imageUrl} />
           <h1 className="w-20 bg-orange-500 py-1 text-white text-center rounded-md ">
             {displayedVan.type}
@@ -51,7 +51,7 @@ export const Vaninfo = () => {
             {displayedVan.name}
           </p>
           <p>{displayedVan.description}</p>
-          <button className="bg-orange-400 py-2 font-bold text-white rounded-md font-white hover:bg-orange-400 transition-all active:bg-orange-700">
+          <button className="bg-orange-700 py-2 font-bold text-white rounded-md font-white hover:bg-orange-400 transition-all active:bg-orange-700">
             Rent this van
           </button>
         </div>

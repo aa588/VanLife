@@ -11,7 +11,7 @@ const Home = () => {
       />
 
       <div className="flex justify-center text-left -mt-20">
-        <div className="my-10 mx-4 flex flex-col self-center max-w-[400px]  gap-5 absolute ">
+        <div className="my-10 mx-4 flex flex-col self-center max-w-[350px]  gap-5 absolute ">
           <p className="text-3xl font-bold text-white">
             You got the travel plans, we got the travel vans
           </p>

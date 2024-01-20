@@ -8,8 +8,8 @@ const About = () => {
       <div className="bg-black/40 w-full h-[300px]">
         <img className="w-full rounded-md h-full object-cover" src={about} />
       </div>
-      <div className="flex flex-col px-5 gap-10">
-        <div className="mx-4 flex flex-col gap-5 mb-5">
+      <div className="flex flex-col px-5 gap-3">
+        <div className="mx-4 flex flex-col gap-5 mb-2">
           <h1 className="text-3xl font-bold">
             Don't Squeeze in a sedan when you could relax in van
           </h1>
@@ -23,7 +23,7 @@ const About = () => {
             magic of touring the world on 4 wheels.
           </h1>
         </div>
-        <div className="mx-4 flex flex-col justify-between p-4 h-[150px] bg-orange-900 rounded-md">
+        <div className="mx-4 lg:mt-10 flex flex-col justify-between p-4 h-[150px] bg-orange-900 rounded-md mb-10">
           <div className="text-lg font-bold">
             <p>Your destination is waiting.</p>
             <p>Your van is ready.</p>

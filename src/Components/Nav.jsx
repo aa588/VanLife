@@ -4,12 +4,12 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const Nav = () => {
   return (
-    <nav className="flex justify-between items-center text-center  p-4 text-black w-full h-[70px] text-white">
+    <nav className="flex justify-between items-center text-center p-4 w-full h-[70px] text-white">
       <Link to="/vanlife">
-        <h1 className="text-3xl font-bold">#VANLIVE</h1>
+        <h1 className="text-2xl font-bold">#VANLIVE</h1>
       </Link>
 
-      <div className="flex gap-5">
+      <div className="flex gap-3 p-2">
         <NavLink
           className={({ isActive }) => (isActive ? "active-link" : null)}
           to="/host"

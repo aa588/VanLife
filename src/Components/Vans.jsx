@@ -33,7 +33,7 @@ const Vans = () => {
           <div className="flex gap-2 items-center">
             <button
               onClick={() => setSearchParam({ type: "simple" })}
-              className={`px-5 py-1 text-sm hover:bg-red-950  transition-all duration-200  bg-gray-800 text-gray-300 rounded-md ${
+              className={`px-4 py-1 text-sm hover:bg-red-950  transition-all duration-200  bg-gray-800 text-gray-300 rounded-md ${
                 typeFilter == "simple" &&
                 "bg-red-950 transition-all duration-100"
               }`}
@@ -43,7 +43,7 @@ const Vans = () => {
 
             <button
               onClick={() => setSearchParam({ type: "luxury" })}
-              className={`px-5 py-1 text-sm hover:bg-red-950  transition-all duration-200  bg-gray-800 text-gray-300 rounded-md ${
+              className={`px-4 py-1 text-sm hover:bg-red-950  transition-all duration-200  bg-gray-800 text-gray-300 rounded-md ${
                 typeFilter == "luxury" &&
                 "bg-red-950 transition-all duration-100"
               }`}
@@ -53,7 +53,7 @@ const Vans = () => {
 
             <button
               onClick={() => setSearchParam({ type: "rugged" })}
-              className={`px-5 py-1 text-sm hover:bg-red-950  transition-all duration-200   bg-gray-800 text-gray-300 rounded-md ${
+              className={`px-4 py-1 text-sm hover:bg-red-950  transition-all duration-200   bg-gray-800 text-gray-300 rounded-md ${
                 typeFilter == "rugged" &&
                 "bg-red-950 transition-all duration-100"
               }`}
@@ -66,9 +66,9 @@ const Vans = () => {
             {typeFilter && (
               <button
                 onClick={() => setSearchParam({})}
-                className="px-5 py-1 bg-gray-900  text-gray-300 rounded-md"
+                className="px-4 py-1  bg-gray-900  text-gray-300 rounded-md"
               >
-                Clear filters
+                Clear
               </button>
             )}
           </div>
@@ -85,7 +85,7 @@ const Vans = () => {
             >
               <div className="flex flex-col text-[14px] font-bold gap-1 relative">
                 <img
-                  className="rounded-md w-[200px] hover:opacity-80 transition-all duration-400"
+                  className="rounded-md w-[170px] hover:opacity-80 transition-all duration-400"
                   src={item.imageUrl}
                 />
 
