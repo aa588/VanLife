@@ -32,7 +32,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+        <Route path="vanlife" element={<Home />} />
         <Route path="/login" element={<Login />} action={loginAction} />
 
         <Route path="/about" element={<About />} />
