@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aa588.github.io/VanLife/static/css/main.66445b1e.css",
+    "main.js": "/aa588.github.io/VanLife/static/js/main.9a5da9b6.js",
+    "static/media/home.jpg": "/aa588.github.io/VanLife/static/media/home.a2d15ad599c14941eb6f.jpg",
+    "static/media/about.jpg": "/aa588.github.io/VanLife/static/media/about.1b89a1e43efd27c278f3.jpg",
+    "index.html": "/aa588.github.io/VanLife/index.html",
+    "main.66445b1e.css.map": "/aa588.github.io/VanLife/static/css/main.66445b1e.css.map",
+    "main.9a5da9b6.js.map": "/aa588.github.io/VanLife/static/js/main.9a5da9b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66445b1e.css",
+    "static/js/main.9a5da9b6.js"
+  ]
+}
