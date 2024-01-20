@@ -85,7 +85,7 @@ const Vans = () => {
             >
               <div className="flex flex-col text-[14px] font-bold gap-1 relative">
                 <img
-                  className="rounded-md w-[170px] hover:opacity-80 transition-all duration-400"
+                  className="rounded-md w-[160px] hover:opacity-80 transition-all duration-400"
                   src={item.imageUrl}
                 />
 

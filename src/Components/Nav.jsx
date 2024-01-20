@@ -9,7 +9,7 @@ const Nav = () => {
         <h1 className="text-2xl font-bold">#VANLIVE</h1>
       </Link>
 
-      <div className="flex gap-3 p-2">
+      <div className="flex gap-3 p-0">
         <NavLink
           className={({ isActive }) => (isActive ? "active-link" : null)}
           to="/host"
