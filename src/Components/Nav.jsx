@@ -5,7 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 const Nav = () => {
   return (
     <nav className="flex justify-between items-center text-center  p-4 text-black w-full h-[70px] text-white">
-      <Link to="/">
+      <Link to="/vanlife">
         <h1 className="text-3xl font-bold">#VANLIVE</h1>
       </Link>
 
